@@ -16,6 +16,10 @@ add_btn.addEventListener('click', () => {
 });
 
 const create_item = () => {
+
+  const item = document.createElement("DIV");
+  item.classList.add('item');
+  item.setAttribute('id','item-');
 };
 
 document.querySelectorAll('.drop').forEach(element => {
